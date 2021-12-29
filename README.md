@@ -10,6 +10,6 @@ From [Wikipedia:](https://en.wikipedia.org/wiki/ROT13)
 > unchanged. Because there are 26 letters in the English alphabet and 26 = 2 × 13, the ROT13 function is its own inverse:
 
 ### To-Do
-[x] Write simple script for encoding and decoding ROT13 strings
-[ ] Write to accept string as an argument and return the desired string
-[ ] Implement flags to allow to determine if the provided string argument needs to be encoded or decoded 
+ - [x] Write simple script for encoding and decoding ROT13 strings
+ - [ ] Write to accept string as an argument and return the desired string
+ - [ ] Implement flags to allow to determine if the provided string argument needs to be encoded or decoded 
