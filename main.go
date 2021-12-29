@@ -26,9 +26,9 @@ func rot13(r rune) rune {
 
 func main() {
 	// Eventually refactor to take os.Args instead of altering script with value
-	input := os.Args
+	input := os.Args[1:]
 	for _, inputStr := range input {
 		mapped := strings.Map(rot13, inputStr)
-		fmt.Printf("\nInput: %s\nOutput: %s", inputStr, mapped)
+		fmt.Printf("\nInput: %s\nOutput: %s\n", inputStr, mapped)
 	}
 }
