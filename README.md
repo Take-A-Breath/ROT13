@@ -11,5 +11,5 @@ From [Wikipedia:](https://en.wikipedia.org/wiki/ROT13)
 
 ### To-Do
  - [x] Write simple script for encoding and decoding ROT13 strings
- - [ ] Write to accept string as an argument and return the desired string
- - [ ] Implement flags to allow to determine if the provided string argument needs to be encoded or decoded 
+ - [x] Write to accept string as an argument and return the desired string
+ - [ ] Debug
