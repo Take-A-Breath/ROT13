@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"strings"
 	"unicode"
 )
@@ -25,9 +26,9 @@ func rot13(r rune) rune {
 
 func main() {
 	// Eventually refactor to take os.Args instead of altering script with value
-	input := "VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF"
-	mapped := strings.Map(rot13, input)
-
-	fmt.Println("Input: " + input)
-	fmt.Println("Output: " + mapped)
+	input := os.Args
+	for _, inputStr := range input {
+		mapped := strings.Map(rot13, inputStr)
+		fmt.Printf("\nInput: %s\nOutput: %s", inputStr, mapped)
+	}
 }
