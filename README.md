@@ -12,4 +12,4 @@ From [Wikipedia:](https://en.wikipedia.org/wiki/ROT13)
 ### To-Do
  - [x] Write simple script for encoding and decoding ROT13 strings
  - [x] Write to accept string as an argument and return the desired string
- - [ ] Debug
+ - [x] Debug
